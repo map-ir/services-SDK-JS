@@ -1,0 +1,38 @@
+{
+  "name": "@map.ir/services-sdk",
+  "version": "0.0.0",
+  "description": "JavaScript/TypeScript SDK for map.ir services",
+  "type": "module",
+  "source": "src/index.ts",
+  "exports": {
+    "require": "./dist/mapir_services_sdk.cjs",
+    "default": "./dist/mapir_services_sdk.modern.js",
+    "types": "./dist/mapir_services_sdk.modern.d.ts"
+  },
+  "main": "./dist/mapir_services_sdk.cjs",
+  "module": "./dist/mapir_services_sdk.module.js",
+  "unpkg": "./dist/mapir_services_sdk.umd.js",
+  "types": "dist/mapir_services_sdk.d.ts",
+  "scripts": {
+    "dev": "microbundle watch",
+    "build": "microbundle"
+  },
+  "keywords": [
+    "search",
+    "geocode",
+    "reverse-geocode",
+    "geofence",
+    "tsp",
+    "vrp",
+    "map",
+    "tile",
+    "vector-tile"
+  ],
+  "author": "Mohammad H. Sattarian (mh_sattarian@outlook.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "geojson": "^0.5.0",
+    "microbundle": "^0.15.1",
+    "osrm": "^5.26.0"
+  }
+}
