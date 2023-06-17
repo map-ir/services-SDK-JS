@@ -13,6 +13,10 @@
   "module": "./dist/mapir_services_sdk.module.js",
   "unpkg": "./dist/mapir_services_sdk.umd.js",
   "types": "dist/mapir_services_sdk.d.ts",
+  "files": [
+    "src",
+    "dist"
+  ],
   "scripts": {
     "dev": "microbundle watch",
     "build": "microbundle"
