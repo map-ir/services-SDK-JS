@@ -12,7 +12,7 @@
   "main": "./dist/mapir_services_sdk.cjs",
   "module": "./dist/mapir_services_sdk.module.js",
   "unpkg": "./dist/mapir_services_sdk.umd.js",
-  "types": "dist/mapir_services_sdk.d.ts",
+  "types": "dist/index.d.ts",
   "files": [
     "src",
     "dist"
