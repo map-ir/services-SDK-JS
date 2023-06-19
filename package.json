@@ -6,8 +6,8 @@
   "source": "src/index.ts",
   "exports": {
     "require": "./dist/mapir_services_sdk.cjs",
-    "default": "./dist/mapir_services_sdk.modern.js",
-    "types": "./dist/mapir_services_sdk.modern.d.ts"
+    "types": "./dist/mapir_services_sdk.modern.d.ts",
+    "default": "./dist/mapir_services_sdk.modern.js"
   },
   "main": "./dist/mapir_services_sdk.cjs",
   "module": "./dist/mapir_services_sdk.module.js",
@@ -35,8 +35,8 @@
   "author": "Mohammad H. Sattarian (mh_sattarian@outlook.com)",
   "license": "MIT",
   "devDependencies": {
-    "geojson": "^0.5.0",
-    "microbundle": "^0.15.1",
-    "osrm": "^5.26.0"
+    "@types/geojson": "^7946.0.10",
+    "@types/osrm": "^5.25.2",
+    "microbundle": "^0.15.1"
   }
 }

@@ -47,6 +47,7 @@ export default function route(
       .then((res) => res as IRouteResponse | undefined);
   } catch (err) {
     console.error("🚀 ~ file: route.ts:34 ~ err:", err);
+    return undefined;
   }
 }
 

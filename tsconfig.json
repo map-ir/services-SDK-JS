@@ -1,13 +1,21 @@
 {
   "compilerOptions": {
-    "incremental": true,
-    "target": "ESNext",
     "module": "ESNext",
-    "declaration": true,
-    "outDir": "dist",
+    "target": "ESNext",
+    "lib": ["es6", "dom", "DOM.Iterable"],
+    "sourceMap": true,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "rootDir": "src",
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strict": true,
     "esModuleInterop": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+    "allowSyntheticDefaultImports": true,
+    "downlevelIteration": true,
+    "baseUrl": "src"
   },
   "include": ["src"]
 }
