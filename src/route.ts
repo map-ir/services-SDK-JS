@@ -54,11 +54,14 @@ export default function route(
 //** Types:  */ */
 
 export type RouteType = "car" | "walking" | "bicycle";
+
 export interface IRouteOptions extends Record<string, unknown> {
   alternatives?: boolean;
   steps?: boolean;
-  overview?: boolean;
+  overview?: "full" | boolean;
+  geometries?: "polyline6";
 }
+
 export type RouteMethod = "GET";
 export interface IStaticMapPayload extends Record<string, string> {
   width: `${number}`;
